@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Borderify",
+  "version": "1.0",
+
+  "description": "Adds a background image to all webpages matching google.com",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+	"matches": ["*://*.google.com/"],
+	"js": ["borderify.js"]
+}
+]
+}

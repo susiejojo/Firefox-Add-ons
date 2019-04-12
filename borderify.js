@@ -1,0 +1,1 @@
+document.body.style.backgroundImage = "url('https://onehdwallpaper.com/wp-content/uploads/2015/07/Colorful-Nature-HD-Wallpapers-Pictures.jpg')"; 
