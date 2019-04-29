@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Darktheme",
+  "version": "1.0",
+
+  "description": "Adds a dark background to all webpages matching github.com",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+	"matches": ["*://*.github.com/*"],
+	"js": ["darken.js"]
+}
+]
+}
